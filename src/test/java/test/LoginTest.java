@@ -31,6 +31,13 @@ public class LoginTest {
 		loginPage.login("student", "Password123");
 	}
 
+	@Test
+	public void testlogin2() {
+		LoginPage loginPage = new LoginPage(driver);
+		loginPage.login("student", "Password123");
+	}
+
+
 	@AfterMethod
 	public void teardown() {
 		System.out.println("hello hiii");
