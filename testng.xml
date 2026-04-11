@@ -1,0 +1,12 @@
+
+<suite name="Automation Suite">
+
+    <test name="Annotation Tests">
+        <classes>
+            <class name="Annotations.dependsOnMethods"/>
+            <class name="Annotations.priority"/>
+            <class name="Annotations.TestNG_lifecycle"/>
+        </classes>
+    </test>
+
+</suite>
